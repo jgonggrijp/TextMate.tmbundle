@@ -18,7 +18,7 @@
 	<key>keyEquivalent</key>
 	<string>^,</string>
 	<key>name</key>
-	<string>continue statement with comma</string>
+	<string>Move to EOL and Insert Comma</string>
 	<key>uuid</key>
 	<string>FD19AC83-B088-4007-8A0B-D6742F314395</string>
 </dict>

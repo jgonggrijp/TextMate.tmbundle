@@ -18,7 +18,7 @@
 	<key>keyEquivalent</key>
 	<string>^ </string>
 	<key>name</key>
-	<string>append space to end of line</string>
+	<string>Move to EOL and Insert Space</string>
 	<key>uuid</key>
 	<string>E342617C-6A89-4350-8FB0-2436EC62C393</string>
 </dict>
