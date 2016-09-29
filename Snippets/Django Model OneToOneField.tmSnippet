@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:FIELDNAME} = models.OneToOneField(${2:RELATED_MODEL}, on_delete=models.${3:CASCADE}${4:, parent_link=True}${5:, related_name='${6:related_name}'}${7:, blank=True}${8:, null=True}${9})</string>
+	<key>name</key>
+	<string>Django Model OneToOneField</string>
+	<key>tabTrigger</key>
+	<string>onetoone</string>
+	<key>uuid</key>
+	<string>4286D0D4-5CA4-44E9-B454-42E7DBB4F81B</string>
+</dict>
+</plist>
