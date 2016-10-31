@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>commands</key>
+	<array>
+		<dict>
+			<key>argument</key>
+			<string>'use strict';</string>
+			<key>command</key>
+			<string>insertText:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>insertNewline:</string>
+		</dict>
+	</array>
+	<key>name</key>
+	<string>JavaScript Use Strict</string>
+	<key>tabTrigger</key>
+	<string>strict</string>
+	<key>uuid</key>
+	<string>CAEED76E-82E3-420B-960A-D6D20C59F0BD</string>
+</dict>
+</plist>
