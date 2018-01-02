@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{{^${1:section}}}${2:
+	$3
+}{{/$1}}$0</string>
+	<key>keyEquivalent</key>
+	<string>^^</string>
+	<key>name</key>
+	<string>Mustache Insert Inverse Section</string>
+	<key>scope</key>
+	<string>text.html.mustache</string>
+	<key>uuid</key>
+	<string>ABA24FDB-1686-46A8-A9A4-598D02EBFDAB</string>
+</dict>
+</plist>
