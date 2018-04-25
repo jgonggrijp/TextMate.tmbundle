@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${TM_SELECTED_TEXT:-$TM_CURRENT_WORD} = (${1:args}) -&gt;
+	$0</string>
+	<key>isDisabled</key>
+	<true/>
+	<key>keyEquivalent</key>
+	<string>$</string>
+	<key>name</key>
+	<string>CoffeeScript Constructs New Function</string>
+	<key>scope</key>
+	<string>source.coffee</string>
+	<key>uuid</key>
+	<string>697CCA26-88D1-4C07-B75D-31BBA307F08A</string>
+</dict>
+</plist>
