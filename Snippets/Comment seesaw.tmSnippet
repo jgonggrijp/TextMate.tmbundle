@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**/${1/.+/  \/\/ /}${1:remove second slash to ${2:...}}
+$3
+/*/
+$4
+// */$0</string>
+	<key>name</key>
+	<string>Comment Seesaw</string>
+	<key>tabTrigger</key>
+	<string>seesaw</string>
+	<key>uuid</key>
+	<string>C6148A69-29A6-4AB4-8D11-A22FC12535ED</string>
+</dict>
+</plist>
