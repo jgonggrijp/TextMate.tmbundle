@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>beforeEach ${2/.+/\(/}${1|,(done) |}-&gt; 
+	$3
+${2/.+/), /}${2:5000}${2/.+/
+/}$0</string>
+	<key>name</key>
+	<string>Jasmine beforeEach Coffee</string>
+	<key>scope</key>
+	<string>source.coffee</string>
+	<key>tabTrigger</key>
+	<string>beforeEach</string>
+	<key>uuid</key>
+	<string>76D4C0DE-E6F1-4968-834C-E9EB29126EBE</string>
+</dict>
+</plist>

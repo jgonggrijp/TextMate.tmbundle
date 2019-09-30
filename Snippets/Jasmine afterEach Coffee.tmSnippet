@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>afterEach ${2/.+/\(/}${1|,(done) |}-&gt; 
+	$3
+${2/.+/), /}${2:5000}${2/.+/
+/}$0</string>
+	<key>name</key>
+	<string>Jasmine afterEach Coffee</string>
+	<key>scope</key>
+	<string>source.coffee</string>
+	<key>tabTrigger</key>
+	<string>afterEach</string>
+	<key>uuid</key>
+	<string>3BF2B07C-15E3-4D5C-B055-95D2CCC66610</string>
+</dict>
+</plist>

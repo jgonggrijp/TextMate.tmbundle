@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>describe '${1:label of the suite}', -&gt; 
+	$2
+$0</string>
+	<key>name</key>
+	<string>Jasmine describe Coffee</string>
+	<key>scope</key>
+	<string>source.coffee</string>
+	<key>tabTrigger</key>
+	<string>describe</string>
+	<key>uuid</key>
+	<string>3B5188CA-5174-4A17-B8D5-1EDA9942C8DC</string>
+</dict>
+</plist>
