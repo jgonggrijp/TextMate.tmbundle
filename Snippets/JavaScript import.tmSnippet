@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>import ${1:{ }${2:name}${3/.+/ as /}${3:${1/.+/rename/}}$6${1/./ }/} from '${4:./}${5:$2}';
+$0</string>
+	<key>disableAutoIndent</key>
+	<true/>
+	<key>name</key>
+	<string>JavaScript import</string>
+	<key>scope</key>
+	<string>source.js, source.coffee, source.ts</string>
+	<key>tabTrigger</key>
+	<string>import</string>
+	<key>uuid</key>
+	<string>F9313E32-5E15-47F9-A6DB-5D1B5C2B29E4</string>
+</dict>
+</plist>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>commands</key>
+	<array>
+		<dict>
+			<key>command</key>
+			<string>copySelectionToFindPboard:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>copy:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>moveToBeginningOfDocument:</string>
+		</dict>
+		<dict>
+			<key>argument</key>
+			<dict>
+				<key>content</key>
+				<string>import ${1:{ }${2:name}${3/.+/ as /}${3:${1/.+/rename/}}$6${1/./ }/} from '${4:./}${5:$2}';
+$0</string>
+				<key>disableAutoIndent</key>
+				<string>true</string>
+				<key>name</key>
+				<string>JavaScript import</string>
+				<key>uuid</key>
+				<string>F9313E32-5E15-47F9-A6DB-5D1B5C2B29E4</string>
+			</dict>
+			<key>command</key>
+			<string>insertSnippetWithOptions:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>insertTab:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>paste:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>insertBacktab:</string>
+		</dict>
+	</array>
+	<key>keyEquivalent</key>
+	<string>^i</string>
+	<key>name</key>
+	<string>JavaScript import selected name</string>
+	<key>scope</key>
+	<string>source.js, source.coffee, source.ts</string>
+	<key>useGlobalClipboard</key>
+	<true/>
+	<key>uuid</key>
+	<string>7811E67B-1674-4466-829E-3EE829F49700</string>
+</dict>
+</plist>
