@@ -3,10 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>beforeAll ${2/.+/\(/}${1|,(done) |}-&gt; 
-	$3
-${2/.+/), /}${2:5000}${2/.+/
-/}$0</string>
+	<string>beforeAll ${1|,(done) |}-&gt; 
+	$2
+$0</string>
 	<key>name</key>
 	<string>Jasmine beforeAll Coffee</string>
 	<key>scope</key>

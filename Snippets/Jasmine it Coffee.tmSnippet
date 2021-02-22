@@ -3,10 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>it '${1:does what?}', ${3/.+/\(/}${2|,(done) |}-&gt; 
-	$4
-${3/.+/), /}${3:5000}${3/.+/
-/}$0</string>
+	<string>it '${1:does what?}', ${2|,(done) |}-&gt; 
+	$3
+$0</string>
 	<key>name</key>
 	<string>Jasmine it Coffee</string>
 	<key>scope</key>
