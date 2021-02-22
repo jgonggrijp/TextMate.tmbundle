@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>after ${1|,(done) |}-&gt; 
+	$2
+$0</string>
+	<key>name</key>
+	<string>Mocha after Coffee</string>
+	<key>scope</key>
+	<string>source.coffee</string>
+	<key>tabTrigger</key>
+	<string>after</string>
+	<key>uuid</key>
+	<string>6E89DCBA-5599-4B55-B2D5-D0F36B56B978</string>
+</dict>
+</plist>
